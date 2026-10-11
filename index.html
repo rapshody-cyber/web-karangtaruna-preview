@@ -1,0 +1,699 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Karang Taruna Pademangan Timur</title>
+<meta name="description" content="Karang Taruna Kelurahan Pademangan Timur: wadah pengembangan dan pemberdayaan pemuda. Profil, struktur kepengurusan, kegiatan unggulan, dan program kerja 2026.">
+<meta name="theme-color" content="#0B2545">
+<meta property="og:title" content="Karang Taruna Pademangan Timur">
+<meta property="og:description" content="Wadah pengembangan dan pemberdayaan pemuda Kelurahan Pademangan Timur.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%230B2545'/%3E%3Ctext x='32' y='43' font-family='Arial' font-weight='800' font-size='30' text-anchor='middle' fill='%23FFC531'%3EKT%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy:#0B2545; --navy-2:#071A33; --blue:#1E5BC6; --blue-d:#1749A0;
+  --sky:#E8F0FB; --sky-2:#D7E4F7; --yellow:#FFC531; --ink:#12213A;
+  --muted:#52627D; --line:#D3DFF0; --white:#fff;
+  --font-d:'Bricolage Grotesque',system-ui,sans-serif;
+  --font-b:'Plus Jakarta Sans',system-ui,-apple-system,'Segoe UI',sans-serif;
+  --nav-h:68px;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:calc(var(--nav-h) + 12px);-webkit-text-size-adjust:100%}
+body{margin:0;font-family:var(--font-b);font-size:1.0625rem;line-height:1.65;color:var(--ink);background:var(--white);-webkit-font-smoothing:antialiased}
+img,svg{display:block;max-width:100%}
+a{color:inherit}
+h1,h2,h3,h4{font-family:var(--font-d);line-height:1.08;margin:0;letter-spacing:-.02em;font-weight:700}
+p{margin:0}
+ul,ol{margin:0;padding:0;list-style:none}
+button{font:inherit;color:inherit}
+:focus-visible{outline:3px solid var(--yellow);outline-offset:3px;border-radius:6px}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.wrap{width:min(1180px,100% - 40px);margin-inline:auto}
+.ico{width:1.25em;height:1.25em;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;flex:none}
+
+/* ---------- Buttons ---------- */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:14px 26px;border-radius:999px;font-weight:700;font-size:1rem;text-decoration:none;border:2px solid transparent;cursor:pointer;transition:transform .18s ease,background .18s ease,color .18s ease,border-color .18s ease}
+.btn:hover{transform:translateY(-2px)}
+.btn-primary{background:var(--yellow);color:var(--navy)}
+.btn-primary:hover{background:#ffd35e}
+.btn-ghost{border-color:rgba(255,255,255,.35);color:#fff}
+.btn-ghost:hover{border-color:#fff;background:rgba(255,255,255,.08)}
+.btn-dark{background:var(--navy);color:#fff}
+.btn-dark:hover{background:var(--blue-d)}
+.btn-sm{padding:10px 20px;font-size:.92rem}
+
+/* ---------- Navbar ---------- */
+.site-header{position:sticky;top:0;z-index:50;height:var(--nav-h);background:rgba(255,255,255,.92);backdrop-filter:saturate(1.4) blur(12px);-webkit-backdrop-filter:saturate(1.4) blur(12px);border-bottom:1px solid var(--line)}
+.site-header .wrap{height:100%;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;min-width:0}
+.brand-mark{width:42px;height:42px;border-radius:12px;background:var(--navy);color:var(--yellow);display:grid;place-items:center;font-family:var(--font-d);font-weight:800;font-size:1.05rem;letter-spacing:-.02em;flex:none;overflow:hidden}
+.brand-mark img{width:100%;height:100%;object-fit:contain;background:#fff}
+.brand-text{display:flex;flex-direction:column;line-height:1.15;min-width:0}
+.brand-text b{font-family:var(--font-d);font-size:1.05rem;letter-spacing:-.01em}
+.brand-text span{font-size:.78rem;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.nav{display:flex;align-items:center;gap:6px}
+.nav a.nav-link{padding:9px 14px;border-radius:999px;font-weight:600;font-size:.94rem;text-decoration:none;color:var(--muted);transition:background .15s,color .15s}
+.nav a.nav-link:hover{background:var(--sky);color:var(--navy)}
+.nav a.nav-link.active{background:var(--navy);color:#fff}
+.nav .btn{margin-left:8px}
+.menu-btn{display:none;width:44px;height:44px;border-radius:12px;border:1px solid var(--line);background:#fff;cursor:pointer;place-items:center}
+
+/* ---------- Hero ---------- */
+.hero{position:relative;overflow:hidden;background:var(--navy);color:#fff;padding:clamp(56px,8vw,104px) 0 clamp(130px,15vw,190px)}
+.hero::before{content:"";position:absolute;right:-140px;bottom:-230px;width:520px;height:520px;border-radius:50%;background:var(--yellow)}
+.hero::after{content:"";position:absolute;right:120px;top:-210px;width:440px;height:440px;border-radius:50%;border:2px solid rgba(255,255,255,.14)}
+.hero-grid{position:relative;z-index:1;display:grid;grid-template-columns:minmax(0,1.5fr) minmax(300px,.85fr);gap:clamp(32px,5vw,72px);align-items:end}
+.hero h1{font-size:clamp(2.9rem,8.4vw,6.8rem);line-height:.93;letter-spacing:-.04em;font-weight:800}
+.hero h1 span{display:block}
+.hero-tag{margin-top:26px;font-size:clamp(1.1rem,2vw,1.35rem);max-width:34ch;color:#C9D8F0;line-height:1.5}
+.hero-cta{margin-top:34px;display:flex;flex-wrap:wrap;gap:12px}
+.now-card{background:#fff;color:var(--navy);border-radius:28px;padding:28px;box-shadow:0 24px 60px rgba(3,12,28,.35)}
+.now-status{display:inline-flex;align-items:center;gap:10px;font-weight:700;font-size:.9rem;color:var(--blue-d);background:var(--sky);padding:6px 14px 6px 12px;border-radius:999px}
+.now-dot{width:9px;height:9px;border-radius:50%;background:#1FA463;box-shadow:0 0 0 0 rgba(31,164,99,.6);animation:ping 2s ease-out infinite}
+.now-status.idle .now-dot{background:var(--blue);animation:none}
+@keyframes ping{70%{box-shadow:0 0 0 10px rgba(31,164,99,0)}100%{box-shadow:0 0 0 0 rgba(31,164,99,0)}}
+.now-card h2{font-size:clamp(1.5rem,2.6vw,2rem);margin:18px 0 8px}
+.now-card p{color:var(--muted);font-size:.98rem}
+.now-card a.text-link{display:inline-flex;align-items:center;gap:8px;margin-top:20px;font-weight:700;color:var(--blue-d);text-decoration:none;border-bottom:2px solid var(--yellow);padding-bottom:2px}
+.now-card a.text-link:hover{color:var(--navy)}
+.hero [data-in]{opacity:0;transform:translateY(22px);animation:rise .8s cubic-bezier(.2,.7,.2,1) forwards;animation-delay:calc(var(--i,0) * 110ms + 80ms)}
+@keyframes rise{to{opacity:1;transform:none}}
+
+/* ---------- Stats ---------- */
+.stats{position:relative;z-index:2;margin-top:-76px}
+.stats-card{background:#fff;border-radius:24px;border:1px solid var(--line);box-shadow:0 18px 44px rgba(11,37,69,.12);display:grid;grid-template-columns:repeat(4,1fr)}
+.stat{padding:26px 28px;display:flex;flex-direction:column;gap:4px}
+.stat + .stat{border-left:1px solid var(--line)}
+.stat b{font-family:var(--font-d);font-size:clamp(2rem,3.6vw,2.8rem);line-height:1;letter-spacing:-.03em;color:var(--navy)}
+.stat span{color:var(--muted);font-size:.93rem;line-height:1.35}
+
+/* ---------- Sections ---------- */
+.section{padding-block:clamp(72px,10vw,128px)}
+.section.tint{background:var(--sky)}
+.section-head{max-width:720px;margin-bottom:clamp(32px,5vw,56px)}
+.section-head h2{font-size:clamp(2rem,4.6vw,3.3rem)}
+.section-head p{margin-top:16px;color:var(--muted);max-width:56ch}
+
+/* Profile */
+.profile-grid{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,.75fr);gap:clamp(28px,5vw,72px);align-items:start}
+.profile-text p{font-size:clamp(1.15rem,1.9vw,1.4rem);line-height:1.6;max-width:44ch;color:var(--ink)}
+.focus-list{display:flex;flex-wrap:wrap;gap:10px;margin-top:30px}
+.focus-list li{padding:9px 18px;border-radius:999px;background:var(--sky);color:var(--navy);font-weight:600;font-size:.95rem}
+.partner{background:var(--sky);border-radius:28px;padding:30px;display:flex;flex-direction:column;gap:20px}
+.partner h3{font-size:1.15rem}
+.partner-logo{background:#fff;border-radius:18px;padding:22px;display:grid;place-items:center;min-height:130px}
+.partner-logo img{max-height:90px;width:auto}
+.partner-name{font-weight:600;color:var(--navy);font-size:1.02rem;line-height:1.4}
+
+/* Visi Misi */
+.visi{background:var(--navy);color:#fff;border-radius:32px;padding:clamp(28px,5vw,64px);position:relative;overflow:hidden}
+.visi::after{content:"";position:absolute;right:-70px;top:-70px;width:220px;height:220px;border-radius:50%;background:var(--yellow);opacity:.95}
+.visi h3{font-size:1.15rem;color:var(--yellow);position:relative}
+.visi blockquote{margin:18px 0 0;font-family:var(--font-d);font-weight:600;font-size:clamp(1.45rem,3vw,2.3rem);line-height:1.25;letter-spacing:-.015em;max-width:30ch;position:relative}
+.visi-misi-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(28px,5vw,64px);margin-top:clamp(44px,6vw,80px)}
+.block-title{font-size:clamp(1.5rem,2.6vw,2rem);margin-bottom:22px}
+.misi-list li{display:grid;grid-template-columns:44px 1fr;gap:16px;padding:18px 0;border-top:1px solid var(--sky-2)}
+.misi-list li:last-child{border-bottom:1px solid var(--sky-2)}
+.misi-list .n{width:36px;height:36px;border-radius:50%;background:var(--navy);color:var(--yellow);display:grid;place-items:center;font-family:var(--font-d);font-weight:700;font-size:.95rem}
+.misi-list p{line-height:1.55}
+.peran-list{display:grid;gap:0}
+.peran-list li{display:flex;gap:14px;align-items:flex-start;padding:14px 0;border-top:1px solid var(--sky-2);line-height:1.5}
+.peran-list li:last-child{border-bottom:1px solid var(--sky-2)}
+.peran-list li::before{content:"";flex:none;width:10px;height:10px;margin-top:.55em;background:var(--yellow);border-radius:3px;transform:rotate(45deg)}
+
+/* Struktur */
+.pengurus-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:20px}
+.ketua{background:var(--navy);color:#fff;border-radius:32px;padding:clamp(28px,4vw,44px);display:flex;flex-direction:column;justify-content:flex-end;gap:22px;min-height:360px;position:relative;overflow:hidden}
+.ketua::before{content:"";position:absolute;left:-60px;top:-60px;width:200px;height:200px;border-radius:50%;background:var(--blue);opacity:.55}
+.avatar{width:84px;height:84px;border-radius:50%;background:var(--yellow);color:var(--navy);display:grid;place-items:center;font-family:var(--font-d);font-weight:800;font-size:1.9rem;overflow:hidden;position:relative;flex:none}
+.avatar img{width:100%;height:100%;object-fit:cover}
+.ketua .avatar{width:112px;height:112px;font-size:2.6rem}
+.role{font-weight:600;font-size:.95rem;color:var(--yellow)}
+.ketua h3{font-size:clamp(1.9rem,3.4vw,2.7rem);margin-top:4px;position:relative}
+.ketua .avatar,.ketua .role{position:relative}
+.pengurus-rest{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.person{background:var(--sky);border-radius:24px;padding:24px;display:flex;flex-direction:column;gap:18px;justify-content:space-between}
+.person .avatar{width:56px;height:56px;font-size:1.2rem;background:var(--navy);color:var(--yellow)}
+.person .role{color:var(--blue-d)}
+.person h3{font-size:1.25rem;margin-top:2px}
+.seksi-title{margin:clamp(48px,7vw,84px) 0 24px;font-size:clamp(1.5rem,2.6vw,2rem)}
+.seksi-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.seksi{border:1px solid var(--line);border-radius:22px;padding:26px;background:#fff;display:flex;flex-direction:column;gap:18px;border-top:6px solid var(--navy)}
+.seksi:nth-child(3n+2){border-top-color:var(--blue)}
+.seksi:nth-child(3n){border-top-color:var(--yellow)}
+.seksi-head{display:flex;gap:14px;align-items:flex-start}
+.seksi-ico{width:44px;height:44px;border-radius:12px;background:var(--sky);color:var(--blue-d);display:grid;place-items:center;flex:none}
+.seksi-ico .ico{width:22px;height:22px}
+.seksi h4{font-size:1.12rem;line-height:1.25;padding-top:2px}
+.anggota{display:flex;flex-direction:column;gap:10px}
+.anggota li{display:flex;align-items:center;gap:12px;font-size:.97rem;font-weight:500}
+.mini{width:32px;height:32px;border-radius:50%;background:var(--sky);color:var(--navy);display:grid;place-items:center;font-size:.72rem;font-weight:700;flex:none}
+
+/* Kegiatan */
+.hl-grid{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:20px}
+.hl{grid-column:span 2;background:#fff;border-radius:26px;padding:30px;display:flex;flex-direction:column;gap:16px;border:1px solid var(--sky-2)}
+.hl:nth-child(1),.hl:nth-child(2){grid-column:span 3}
+.hl:nth-child(1){background:var(--navy);color:#fff;border-color:var(--navy)}
+.hl-ico{width:52px;height:52px;border-radius:16px;background:var(--navy);color:var(--yellow);display:grid;place-items:center}
+.hl:nth-child(1) .hl-ico{background:var(--yellow);color:var(--navy)}
+.hl-ico .ico{width:26px;height:26px}
+.hl h3{font-size:clamp(1.3rem,2vw,1.6rem);line-height:1.15}
+.pic{font-size:.88rem;font-weight:600;color:var(--blue-d)}
+.hl:nth-child(1) .pic{color:var(--yellow)}
+.hl ul{display:flex;flex-direction:column;gap:12px;margin-top:4px}
+.hl li{font-size:.98rem;line-height:1.5;color:var(--muted);padding-left:18px;position:relative}
+.hl li::before{content:"";position:absolute;left:0;top:.62em;width:7px;height:7px;border-radius:2px;background:var(--yellow);transform:rotate(45deg)}
+.hl li b{color:var(--ink);font-weight:700}
+.hl:nth-child(1) li{color:#C9D8F0}
+.hl:nth-child(1) li b{color:#fff}
+.prog-title{margin:clamp(56px,8vw,96px) 0 28px;font-size:clamp(1.8rem,3.6vw,2.6rem)}
+.prog{display:grid;grid-template-columns:310px minmax(0,1fr);gap:28px;align-items:start}
+.tablist{display:flex;flex-direction:column;gap:6px;position:sticky;top:calc(var(--nav-h) + 20px)}
+.tab{display:flex;align-items:center;gap:12px;text-align:left;padding:12px 14px;border:0;border-radius:16px;background:transparent;font-weight:600;font-size:.95rem;line-height:1.3;cursor:pointer;color:var(--ink);transition:background .15s,color .15s}
+.tab:hover{background:var(--sky-2)}
+.tab[aria-selected="true"]{background:var(--navy);color:#fff}
+.tab .ico{width:20px;height:20px}
+.tab .count{margin-left:auto;font-size:.82rem;opacity:.7;font-weight:700}
+.tabpanel{background:#fff;border-radius:28px;padding:clamp(24px,3.4vw,44px);min-height:320px}
+.tabpanel[hidden]{display:none}
+.tabpanel h3{font-size:clamp(1.4rem,2.4vw,1.9rem);margin-bottom:10px}
+.items li{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:18px;align-items:start;padding:18px 0;border-top:1px solid var(--line)}
+.items li:first-child{margin-top:14px}
+.items .what{font-weight:600;line-height:1.45}
+.when{font-weight:700;font-size:.84rem;color:var(--blue-d);background:var(--sky);padding:5px 14px;border-radius:999px;white-space:nowrap}
+
+/* Kontak */
+.contact{background:var(--navy);color:#fff;position:relative;overflow:hidden}
+.contact::before{content:"";position:absolute;left:-180px;bottom:-260px;width:520px;height:520px;border-radius:50%;border:2px solid rgba(255,255,255,.1)}
+.contact .section-head p{color:#C9D8F0}
+.contact-grid{position:relative;display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr);gap:clamp(28px,4vw,56px);align-items:start}
+.contact h3{font-size:1.3rem;margin-bottom:20px}
+.cp-list{display:flex;flex-direction:column;gap:14px}
+.cp{display:grid;grid-template-columns:auto 1fr auto;gap:18px;align-items:center;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.14);border-radius:22px;padding:18px 20px}
+.cp .avatar{width:54px;height:54px;font-size:1.1rem}
+.cp b{display:block;font-family:var(--font-d);font-size:1.15rem;letter-spacing:-.01em}
+.cp .num{color:#C9D8F0;font-size:.95rem}
+.cp-actions{display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end}
+.social-list{display:flex;flex-direction:column;gap:12px}
+.social-list a{display:flex;align-items:center;gap:16px;padding:16px 18px;border-radius:18px;border:1px solid rgba(255,255,255,.14);text-decoration:none;transition:background .15s,border-color .15s}
+.social-list a:hover{background:rgba(255,255,255,.08);border-color:rgba(255,255,255,.4)}
+.social-list .s-ico{width:44px;height:44px;border-radius:12px;background:var(--yellow);color:var(--navy);display:grid;place-items:center;flex:none}
+.social-list b{display:block;font-size:1rem}
+.social-list span.v{color:#C9D8F0;font-size:.92rem;overflow-wrap:anywhere}
+.social-list .go{margin-left:auto;opacity:.7}
+
+/* Footer */
+.site-footer{background:var(--navy-2);color:#C9D8F0;padding:44px 0}
+.footer-row{display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap}
+.footer-brand{display:flex;align-items:center;gap:16px}
+.footer-brand img{height:52px;width:auto;background:#fff;border-radius:10px;padding:6px}
+.footer-brand p{max-width:46ch;font-size:.95rem;line-height:1.55}
+.footer-nav{display:flex;gap:6px 18px;flex-wrap:wrap}
+.footer-nav a{text-decoration:none;font-weight:600;font-size:.92rem}
+.footer-nav a:hover{color:var(--yellow)}
+
+/* ---------- Responsive ---------- */
+@media (max-width:1020px){
+  .hero-grid{grid-template-columns:1fr;align-items:start}
+  .now-card{max-width:520px}
+  .stats-card{grid-template-columns:repeat(2,1fr)}
+  .stat:nth-child(3){border-left:0}
+  .stat:nth-child(n+3){border-top:1px solid var(--line)}
+  .profile-grid,.visi-misi-grid,.contact-grid{grid-template-columns:1fr}
+  .pengurus-grid{grid-template-columns:1fr}
+  .ketua{min-height:300px}
+  .seksi-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .hl,.hl:nth-child(1),.hl:nth-child(2){grid-column:span 3}
+  .hl:nth-child(5){grid-column:span 6}
+  .prog{grid-template-columns:1fr}
+  .tablist{position:static;flex-direction:row;overflow-x:auto;padding-bottom:8px;margin-inline:-20px;padding-inline:20px;scrollbar-width:thin}
+  .tab{white-space:nowrap;flex:none;background:#fff}
+  .tab .count{display:none}
+}
+@media (max-width:860px){
+  .menu-btn{display:grid}
+  .nav{position:absolute;top:var(--nav-h);left:0;right:0;flex-direction:column;align-items:stretch;gap:4px;padding:14px 20px 22px;background:#fff;border-bottom:1px solid var(--line);box-shadow:0 20px 30px rgba(11,37,69,.12);display:none}
+  .nav.open{display:flex}
+  .nav a.nav-link{padding:13px 16px;border-radius:14px}
+  .nav .btn{margin:8px 0 0}
+  .brand-text span{display:none}
+}
+@media (max-width:640px){
+  body{font-size:1rem}
+  .hero::before{width:360px;height:360px;right:-140px;bottom:-170px}
+  .stat{padding:20px}
+  .pengurus-rest{grid-template-columns:1fr}
+  .seksi-grid{grid-template-columns:1fr}
+  .hl,.hl:nth-child(1),.hl:nth-child(2),.hl:nth-child(5){grid-column:span 6}
+  .items li{grid-template-columns:1fr}
+  .when{justify-self:start}
+  .cp{grid-template-columns:auto 1fr}
+  .cp-actions{grid-column:1/-1;justify-content:flex-start}
+  .footer-row{flex-direction:column;align-items:flex-start}
+  .visi::after{width:140px;height:140px;right:-50px;top:-50px}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .hero [data-in]{animation:none;opacity:1;transform:none}
+  .now-dot{animation:none}
+  .btn:hover{transform:none}
+}
+</style>
+</head>
+<body>
+
+<a class="sr-only" href="#main">Lewati ke konten utama</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="#home" aria-label="Karang Taruna Pademangan Timur, ke beranda">
+      <span class="brand-mark" id="brandMark">KT</span>
+      <span class="brand-text"><b>Karang Taruna</b><span>Kelurahan Pademangan Timur</span></span>
+    </a>
+    <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="nav" aria-label="Buka menu">
+      <svg class="ico" viewBox="0 0 24 24" id="menuIcon"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+    <nav class="nav" id="nav" aria-label="Navigasi utama">
+      <a class="nav-link" href="#home">Beranda</a>
+      <a class="nav-link" href="#profile">Profil</a>
+      <a class="nav-link" href="#visi-misi">Visi &amp; Misi</a>
+      <a class="nav-link" href="#struktur">Struktur</a>
+      <a class="nav-link" href="#kegiatan">Kegiatan</a>
+      <a class="btn btn-dark btn-sm" href="#kontak">Hubungi kami</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+<section class="hero" id="home" aria-labelledby="hero-title">
+  <div class="wrap hero-grid">
+    <div>
+      <h1 id="hero-title" data-in style="--i:0"><span id="h1a">Karang Taruna</span><span id="h1b">Pademangan Timur</span></h1>
+      <p class="hero-tag" id="heroTag" data-in style="--i:2"></p>
+      <div class="hero-cta" data-in style="--i:3">
+        <a class="btn btn-primary" href="#visi-misi">Kenali kami</a>
+        <a class="btn btn-ghost" href="#kontak">Hubungi narahubung</a>
+      </div>
+    </div>
+    <aside class="now-card" id="nowCard" data-in style="--i:4" aria-label="Agenda unggulan"></aside>
+  </div>
+</section>
+
+<div class="stats wrap" aria-label="Ringkasan organisasi">
+  <div class="stats-card" id="stats"></div>
+</div>
+
+<section class="section" id="profile" aria-labelledby="profile-h">
+  <div class="wrap">
+    <div class="section-head"><h2 id="profile-h">Profil Karang Taruna</h2></div>
+    <div class="profile-grid">
+      <div class="profile-text">
+        <p id="profileDesc"></p>
+        <ul class="focus-list" id="focusList"></ul>
+      </div>
+      <aside class="partner" aria-labelledby="partner-h">
+        <h3 id="partner-h">Dukungan institusi pendidikan</h3>
+        <div class="partner-logo"><img id="partnerLogo" alt="" width="200" height="90"></div>
+        <p class="partner-name" id="partnerName"></p>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<section class="section tint" id="visi-misi" aria-labelledby="visi-h">
+  <div class="wrap">
+    <div class="visi">
+      <h3 id="visi-h">Visi</h3>
+      <blockquote id="visiText"></blockquote>
+    </div>
+    <div class="visi-misi-grid">
+      <div>
+        <h3 class="block-title">Misi</h3>
+        <ol class="misi-list" id="misiList"></ol>
+      </div>
+      <div>
+        <h3 class="block-title">Peran kami</h3>
+        <ul class="peran-list" id="peranList"></ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="struktur" aria-labelledby="struktur-h">
+  <div class="wrap">
+    <div class="section-head"><h2 id="struktur-h">Struktur Kepengurusan</h2><p>Pengurus inti dan enam seksi yang menggerakkan program Karang Taruna di Pademangan Timur.</p></div>
+    <div class="pengurus-grid" id="pengurusGrid"></div>
+    <h3 class="seksi-title">Seksi-seksi</h3>
+    <div class="seksi-grid" id="seksiGrid"></div>
+  </div>
+</section>
+
+<section class="section tint" id="kegiatan" aria-labelledby="kegiatan-h">
+  <div class="wrap">
+    <div class="section-head"><h2 id="kegiatan-h">Kegiatan unggulan 2026</h2><p>Lima program yang menjadi prioritas tahun ini, lengkap dengan seksi penanggung jawabnya.</p></div>
+    <div class="hl-grid" id="hlGrid"></div>
+
+    <h2 class="prog-title">Program kerja 2026</h2>
+    <div class="prog">
+      <div class="tablist" role="tablist" aria-label="Program kerja per seksi" aria-orientation="vertical" id="tablist"></div>
+      <div id="tabpanels"></div>
+    </div>
+  </div>
+</section>
+
+<section class="section contact" id="kontak" aria-labelledby="kontak-h">
+  <div class="wrap">
+    <div class="section-head"><h2 id="kontak-h">Hubungi kami</h2><p>Mau bergabung, bekerja sama, atau sekadar bertanya? Hubungi narahubung kami lewat WhatsApp atau telepon.</p></div>
+    <div class="contact-grid">
+      <div>
+        <h3>Narahubung</h3>
+        <div class="cp-list" id="cpList"></div>
+      </div>
+      <div>
+        <h3>Media sosial &amp; email</h3>
+        <div class="social-list" id="socialList"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-row">
+    <div class="footer-brand">
+      <img id="footerLogo" alt="" height="52">
+      <p id="footerText"></p>
+    </div>
+    <nav class="footer-nav" aria-label="Navigasi footer">
+      <a href="#profile">Profil</a><a href="#visi-misi">Visi &amp; Misi</a><a href="#struktur">Struktur</a><a href="#kegiatan">Kegiatan</a><a href="#kontak">Kontak</a>
+    </nav>
+  </div>
+</footer>
+
+<script>
+/* =====================================================================
+   DATA — edit konten di sini. Semua teks website diambil dari objek ini.
+   ===================================================================== */
+const DATA = {
+  brand: {
+    name: "Karang Taruna Kelurahan Pademangan Timur",
+    logo: ""            // isi dengan nama file logo Karang Taruna (mis. "logo-kt.png") bila ada
+  },
+  hero: {
+    tagline: "Wadah Pengembangan dan Pemberdayaan Pemuda",
+    featured: {
+      title: "Bulan Bakti Karang Taruna ke-67",
+      desc: "Rangkaian bakti sosial untuk warga Pademangan Timur, dipimpin Seksi Kesejahteraan Rakyat.",
+      start: "2026-09-01", end: "2026-10-31",
+      link: "#kegiatan", linkText: "Lihat program kerja"
+    }
+  },
+  profile: {
+    desc: "Karang Taruna Kelurahan Pademangan Timur adalah organisasi kepemudaan yang berkomitmen untuk mengembangkan potensi pemuda dan berkontribusi bagi kesejahteraan masyarakat. Kami hadir sebagai motor penggerak kegiatan sosial, ekonomi kreatif, dan pemberdayaan masyarakat di wilayah Pademangan Timur.",
+    focus: ["Kegiatan sosial", "Ekonomi kreatif", "Pemberdayaan masyarakat"],
+    institution: "Universitas 17 Agustus 1945 Jakarta"
+  },
+  visi: "Menjadikan Karang Taruna Kelurahan Pademangan Timur sebagai wadah serta fasilitator untuk mengembangkan potensi jiwa sosial serta memiliki kualitas yang bermanfaat untuk masyarakat luas di tahun 2027.",
+  misi: [
+    "Menanamkan ketaqwaan kepada Tuhan Yang Maha Esa",
+    "Menjaga keutuhan dan kesatuan Karang Taruna Kelurahan Pademangan Timur",
+    "Menumbuhkan rasa toleransi dan jiwa korsa terhadap sesama anggota",
+    "Mengembangkan dan mewujudkan harapan serta cita-cita pemuda/i karang taruna kelurahan pademangan timur melalui bimbingan interaksi yang dilaksanakan baik secara individual maupun kelompok",
+    "Mengimplementasikan Adhitya Karya Mahatva Yodha dalam kehidupan sehari-hari",
+    "Mempertahankan kebenaran dan mencegah kemungkaran"
+  ],
+  peran: [
+    "Wadah pengembangan dan pemberdayaan pemuda",
+    "Motor penggerak kegiatan sosial dan kemanusiaan",
+    "Penggerak ekonomi kreatif dan kewirausahaan pemuda",
+    "Mitra strategis pemerintah kelurahan",
+    "Agen pencegahan masalah sosial pemuda",
+    "Penggerak partisipasi dan gotong royong masyarakat",
+    "Pelopor inovasi sosial dan digital",
+    "Penjaga nilai budaya dan kearifan lokal",
+    "Penggerak kepedulian lingkungan hidup",
+    "Penyalur aspirasi dan suara pemuda"
+  ],
+  pengurus: [               // tambahkan foto: { ..., foto: "foto-ketua.jpg" }
+    { jabatan: "Ketua", nama: "Anwar Fauzi" },
+    { jabatan: "Wakil Ketua", nama: "Agung Arisqi F Putra" },
+    { jabatan: "Sekretaris Umum", nama: "Bagus Ardhiawan" },
+    { jabatan: "Wakil Sekretaris", nama: "Shita Kartika Zahwa" },
+    { jabatan: "Bendahara Umum", nama: "Nur Dian Utami" }
+  ],
+  seksi: [
+    { icon: "moon",      nama: "Seksi Kerohanian", anggota: ["Miftahul Chair", "Rafli Salim"] },
+    { icon: "megaphone", nama: "Seksi Humas", anggota: ["Shafira Syabania", "Dimas Algifari", "Ardian Ramadhani", "Carudin"] },
+    { icon: "book",      nama: "Seksi Pendidikan, Pelatihan, Perempuan & Anak", anggota: ["Siti Fatimah", "Reza Aulia", "Kyla", "Salwa Salsabillah"] },
+    { icon: "leaf",      nama: "Seksi Lingkungan Hidup", anggota: ["M. Ilyas", "Aji Febriyanto"] },
+    { icon: "heart",     nama: "Seksi Kesejahteraan Rakyat", anggota: ["Karyadi Utama", "Tiara Noviyanti", "Putri Adelia"] },
+    { icon: "ball",      nama: "Seksi Olahraga", anggota: ["Danu Pangestu", "Angga"] }
+  ],
+  highlight: [
+    { icon: "book", title: "Gerakan Beasiswa & Pendidikan Pemuda", pic: "Seksi Pendidikan, Pelatihan, Perempuan & Anak", items: [
+      "Transformasi Masa Depan - Membuka akses pendidikan tinggi bagi pemuda kurang mampu",
+      "Kemitraan Multi-Institusi - Kolaborasi dengan berbagai perguruan tinggi dan sekolah",
+      "Dampak Jangka Panjang - Investasi sumber daya manusia untuk kemajuan kelurahan" ] },
+    { icon: "building", title: "Revitalisasi Total Infrastruktur Pemuda", pic: "Seksi Lingkungan Hidup", items: [
+      "Transformasi Fisik Nyata - Perbaikan menyeluruh sarana pemuda di semua RW",
+      "Lingkungan Berkelanjutan - Menciptakan ruang hijau dan fasilitas ramah lingkungan" ] },
+    { icon: "users", title: "Kepemimpinan Generasi Maju", pic: "Semua Seksi", items: [
+      "Kaderisasi Sistematis - Membentuk 50 calon pemimpin muda berintegritas",
+      "Kurikulum Terstandarisasi - Modul kepemimpinan berbasis kompetensi nasional",
+      "Jaringan Nasional - Peluang kolaborasi dengan lembaga kepemimpinan terkemuka" ] },
+    { icon: "trophy", title: "Pekan Olahraga Pemersatu Masyarakat", pic: "Seksi Olahraga", items: [
+      "Pemersatu Multigenerasi - Menyatukan anak-anak, remaja, dewasa, dan lansia",
+      "Promosi Gaya Hidup Sehat - Kampanye kesehatan melalui olahraga massal",
+      "Event Signature Tahunan - Menjadi agenda tetap yang dinanti masyarakat" ] },
+    { icon: "handshake", title: "Jembatan Aspirasi & Kolaborasi Strategis", pic: "Seksi Humas", items: [
+      "Akses Pengambilan Kebijakan - Penyampaian aspirasi langsung ke eksekutif dan legislatif",
+      "Kemitraan Multi-Pihak - Jejaring dengan pemerintah, swasta, dan komunitas",
+      "Legitimasi & Pendanaan - Pengakuan resmi dan potensi dukungan dana berkelanjutan" ] }
+  ],
+  program: [
+    { icon: "moon", nama: "Seksi Kerohanian", items: [
+      "Pawai Isra Mi'raj - 2026", "Pawai Obor Ramadhan - Ramadhan 2026",
+      "Pesantren Kilat & Santunan Anak Yatim Piatu - Ramadhan 2026",
+      "Lomba & Pawai Tahun Baru Islam 1 Muharram - 2026", "Kajian Rutin Bulanan Pemuda - Setiap bulan" ] },
+    { icon: "megaphone", nama: "Seksi Humas", items: [
+      "Silaturahmi dengan UKKT se-Pademangan Timur - Januari 2026", "Audiensi dengan PPK Kemayoran - 2026",
+      "Audiensi dengan Anggota DPRD - 2026", "Audiensi dengan PT Taman Impian Jaya Ancol - 2026",
+      "Media Sosial & Publikasi Kegiatan - Berkelanjutan" ] },
+    { icon: "book", nama: "Seksi Pendidikan, Pelatihan, Perempuan & Anak", items: [
+      "Sosialisasi Beasiswa dengan Universitas dan SMA/SMK 2026",
+      "Pelatihan Keterampilan untuk Perempuan & Remaja Putri - 2026",
+      "Workshop Literasi Digital untuk Pemuda - 2026" ] },
+    { icon: "leaf", nama: "Seksi Lingkungan Hidup", items: [
+      "Kerja Bakti se-Kelurahan Pademangan Timur - Januari - Desember 2026",
+      "Peremajaan UKKT RW Kelurahan Pademangan Timur - Januari & Februari 2026",
+      "Hari Peduli Sampah Nasional (kolaborasi Ancol) 2026", "Penghijauan & Tanam Pohon 2026" ] },
+    { icon: "heart", nama: "Seksi Kesejahteraan Rakyat", items: [
+      "Bulan Bakti Karang Taruna ke-67 (bakti sosial) - September & Oktober 2026",
+      "Santunan Anak yatim Piatu, Lansia & Keluarga Tidak Mampu - 2026",
+      "Pemeriksaan Kesehatan Gratis - 2026" ] },
+    { icon: "ball", nama: "Seksi Olahraga", items: [
+      "Have Fun Badminton, Tenis Meja, Catur & Futsal - 2026",
+      "Pekan Olahraga Karang Taruna - 2026", "Fun Run Pemuda - 2026" ] },
+    { icon: "rocket", nama: "Kegiatan Bersama Semua Seksi", items: [
+      "Latihan Kepemimpinan Karang Taruna - 2026",
+      "Rapat Evaluasi & Perencanaan Triwulanan - Maret, Juni, September, Desember 2026" ] }
+  ],
+  kontakPersons: [
+    { nama: "Dimas Algifari",   telp: "087781858105", display: "0877-8185-8105" },
+    { nama: "Ardian Ramadhani", telp: "081298437997", display: "0812-9843-7997" },
+    { nama: "Shafira Syabania", telp: "088101249588", display: "0881-0124-9588" }
+  ],
+  kontakSosmed: [
+    { icon: "instagram", platform: "Instagram", value: "@katar.padtim", link: "https://instagram.com/katar.padtim" },
+    { icon: "tiktok",    platform: "TikTok",    value: "@katar.padtim", link: "https://www.tiktok.com/@katar.padtim" },
+    { icon: "youtube",   platform: "YouTube",   value: "@karangtarunapadtimura", link: "https://youtube.com/@karangtarunapadtimura" },
+    { icon: "mail",      platform: "Email",     value: "karangtarunapadtim@gmail.com", link: "mailto:karangtarunapadtim@gmail.com" }
+  ],
+  footer: "© 2026 Karang Taruna Kelurahan Pademangan Timur. Bersama Membangun Masa Depan Cemerlang.",
+  waText: "Halo Kak, saya ingin bertanya tentang Karang Taruna Pademangan Timur."
+};
+
+/* Lokasi file gambar: di GitHub Pages dipakai path relatif, di tempat lain (preview) diambil dari situs lama */
+const OLD_SITE = "https://pademangantimurkarangtaruna-eng.github.io/web-karangtarunapademangantimur/";
+const ASSET = location.hostname.endsWith("github.io") || location.protocol === "file:" ? "" : OLD_SITE;
+const IMG = { uta: ASSET + "logo-uta.png", footer: ASSET + "logo-uta-Merah-bergandengan2022.png" };
+
+/* =====================================================================
+   Helpers
+   ===================================================================== */
+const $ = (id) => document.getElementById(id);
+const esc = (s) => String(s).replace(/[&<>"']/g, c => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[c]));
+const initials = (n) => n.replace(/[^\p{L}\s.]/gu,"").trim().split(/\s+/).filter(w => !/^[A-Z]\.$/.test(w) || true).slice(0,2).map(w => w[0].toUpperCase()).join("");
+const waNumber = (t) => "62" + t.replace(/^0/, "");
+
+const P = {
+  book:["M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z","M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"],
+  users:["M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2","M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8z","M22 21v-2a4 4 0 0 0-3-3.87","M16 3.13a4 4 0 0 1 0 7.75"],
+  trophy:["M6 9H4.5a2.5 2.5 0 0 1 0-5H6","M18 9h1.5a2.5 2.5 0 0 0 0-5H18","M4 22h16","M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22","M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22","M18 2H6v7a6 6 0 0 0 12 0V2z"],
+  building:["M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18z","M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2","M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2","M10 6h4","M10 10h4","M10 14h4","M10 18h4"],
+  handshake:["m11 17 2 2a1 1 0 1 0 3-3","m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4","m21 3 1 11h-2","M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3","M3 4h8"],
+  moon:["M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9z"],
+  megaphone:["m3 11 18-5v12L3 14v-3z","M11.6 16.8a3 3 0 1 1-5.8-1.6"],
+  leaf:["M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10z","M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"],
+  heart:["M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7z"],
+  ball:["M12 22a10 10 0 1 0 0-20 10 10 0 0 0 0 20z","M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20","M2 12h20"],
+  rocket:["M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z","m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z","M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0","M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"],
+  phone:["M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"],
+  whatsapp:["M7.9 20A9 9 0 1 0 4 16.1L2 22z"],
+  mail:["M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z","m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"],
+  instagram:["M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5z","M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z","M17.5 6.5h.01"],
+  youtube:["M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17","m10 15 5-3-5-3z"],
+  tiktok:["M9 18V5l12-2v13","M9 18a3 3 0 1 1-6 0 3 3 0 0 1 6 0z","M21 16a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"],
+  arrow:["M7 17 17 7","M7 7h10v10"]
+};
+const icon = (n) => `<svg class="ico" viewBox="0 0 24 24" aria-hidden="true">${(P[n]||P.users).map(d => `<path d="${d}"/>`).join("")}</svg>`;
+
+/* =====================================================================
+   Render
+   ===================================================================== */
+function render() {
+  // brand & hero
+  const mark = $("brandMark");
+  if (DATA.brand.logo) mark.innerHTML = `<img src="${esc(ASSET + DATA.brand.logo)}" alt="" onerror="this.parentNode.textContent='KT'">`;
+  $("heroTag").textContent = DATA.hero.tagline;
+
+  // featured card
+  const f = DATA.hero.featured, now = new Date();
+  const start = new Date(f.start + "T00:00:00"), end = new Date(f.end + "T23:59:59");
+  const live = now >= start && now <= end, soon = now < start;
+  $("nowCard").innerHTML = `
+    <span class="now-status ${live ? "" : "idle"}"><span class="now-dot"></span>${live ? "Sedang berlangsung" : soon ? "Segera hadir" : "Agenda 2026"}</span>
+    <h2>${esc(f.title)}</h2>
+    <p>${esc(f.desc)}</p>
+    <a class="text-link" href="${esc(f.link)}">${esc(f.linkText)} ${icon("arrow")}</a>`;
+
+  // stats
+  const pengurusN = DATA.pengurus.length;
+  const anggotaN = DATA.seksi.reduce((a, s) => a + s.anggota.length, 0);
+  const programN = DATA.program.reduce((a, p) => a + p.items.length, 0);
+  const stats = [
+    [pengurusN + anggotaN, "pengurus dan anggota seksi"],
+    [DATA.seksi.length, "seksi bidang kerja"],
+    [DATA.highlight.length, "kegiatan unggulan"],
+    [programN, "program kerja 2026"]
+  ];
+  $("stats").innerHTML = stats.map(([n, l]) => `<div class="stat"><b>${n}</b><span>${l}</span></div>`).join("");
+
+  // profile
+  $("profileDesc").textContent = DATA.profile.desc;
+  $("focusList").innerHTML = DATA.profile.focus.map(x => `<li>${esc(x)}</li>`).join("");
+  const pl = $("partnerLogo");
+  pl.src = IMG.uta; pl.alt = "Logo " + DATA.profile.institution;
+  pl.onerror = () => { pl.replaceWith(Object.assign(document.createElement("b"), { textContent: "UTA'45", style: "font-family:var(--font-d);font-size:2rem;color:var(--navy)" })); };
+  $("partnerName").textContent = DATA.profile.institution;
+
+  // visi misi peran
+  $("visiText").textContent = DATA.visi;
+  $("misiList").innerHTML = DATA.misi.map((m, i) => `<li><span class="n">${i + 1}</span><p>${esc(m)}</p></li>`).join("");
+  $("peranList").innerHTML = DATA.peran.map(p => `<li>${esc(p)}</li>`).join("");
+
+  // struktur
+  const av = (p) => p.foto ? `<span class="avatar"><img src="${esc(ASSET + p.foto)}" alt="${esc(p.nama)}"></span>` : `<span class="avatar" aria-hidden="true">${esc(initials(p.nama))}</span>`;
+  const [ketua, ...rest] = DATA.pengurus;
+  $("pengurusGrid").innerHTML = `
+    <article class="ketua">${av(ketua)}<div><div class="role">${esc(ketua.jabatan)}</div><h3>${esc(ketua.nama)}</h3></div></article>
+    <div class="pengurus-rest">${rest.map(p => `<article class="person">${av(p)}<div><div class="role">${esc(p.jabatan)}</div><h3>${esc(p.nama)}</h3></div></article>`).join("")}</div>`;
+  $("seksiGrid").innerHTML = DATA.seksi.map(s => `
+    <article class="seksi">
+      <div class="seksi-head"><span class="seksi-ico">${icon(s.icon)}</span><h4>${esc(s.nama)}</h4></div>
+      <ul class="anggota">${s.anggota.map(a => `<li><span class="mini" aria-hidden="true">${esc(initials(a))}</span>${esc(a)}</li>`).join("")}</ul>
+    </article>`).join("");
+
+  // highlight
+  $("hlGrid").innerHTML = DATA.highlight.map(h => `
+    <article class="hl">
+      <span class="hl-ico">${icon(h.icon)}</span>
+      <div><h3>${esc(h.title)}</h3><p class="pic" style="margin-top:8px">Penanggung jawab: ${esc(h.pic)}</p></div>
+      <ul>${h.items.map(it => { const i = it.indexOf(" - "); return i > 0 ? `<li><b>${esc(it.slice(0, i))}.</b> ${esc(it.slice(i + 3))}</li>` : `<li>${esc(it)}</li>`; }).join("")}</ul>
+    </article>`).join("");
+
+  // program tabs
+  const tl = $("tablist"), tp = $("tabpanels");
+  tl.innerHTML = DATA.program.map((p, i) => `
+    <button class="tab" role="tab" id="tab-${i}" aria-controls="panel-${i}" aria-selected="${i === 0}" tabindex="${i === 0 ? 0 : -1}">${icon(p.icon)}<span>${esc(p.nama)}</span><span class="count">${p.items.length}</span></button>`).join("");
+  tp.innerHTML = DATA.program.map((p, i) => `
+    <section class="tabpanel" role="tabpanel" id="panel-${i}" aria-labelledby="tab-${i}" ${i === 0 ? "" : "hidden"}>
+      <h3>${esc(p.nama)}</h3>
+      <ul class="items">${p.items.map(it => {
+        const k = it.lastIndexOf(" - ");
+        return k > 0 ? `<li><span class="what">${esc(it.slice(0, k))}</span><span class="when">${esc(it.slice(k + 3))}</span></li>` : `<li><span class="what">${esc(it)}</span></li>`;
+      }).join("")}</ul>
+    </section>`).join("");
+  const tabs = [...tl.querySelectorAll(".tab")], panels = [...tp.querySelectorAll(".tabpanel")];
+  const select = (i, focus) => {
+    tabs.forEach((t, j) => { t.setAttribute("aria-selected", j === i); t.tabIndex = j === i ? 0 : -1; });
+    panels.forEach((p, j) => p.hidden = j !== i);
+    if (focus) tabs[i].focus();
+  };
+  tabs.forEach((t, i) => {
+    t.addEventListener("click", () => select(i));
+    t.addEventListener("keydown", e => {
+      const k = e.key, n = tabs.length;
+      if (["ArrowDown","ArrowRight"].includes(k)) { e.preventDefault(); select((i + 1) % n, true); }
+      if (["ArrowUp","ArrowLeft"].includes(k)) { e.preventDefault(); select((i - 1 + n) % n, true); }
+      if (k === "Home") { e.preventDefault(); select(0, true); }
+      if (k === "End") { e.preventDefault(); select(n - 1, true); }
+    });
+  });
+
+  // kontak
+  $("cpList").innerHTML = DATA.kontakPersons.map(k => `
+    <article class="cp">
+      <span class="avatar" aria-hidden="true">${esc(initials(k.nama))}</span>
+      <div><b>${esc(k.nama)}</b><span class="num">${esc(k.display)}</span></div>
+      <div class="cp-actions">
+        <a class="btn btn-primary btn-sm" target="_blank" rel="noopener" href="https://wa.me/${waNumber(k.telp)}?text=${encodeURIComponent(DATA.waText)}">${icon("whatsapp")} WhatsApp</a>
+        <a class="btn btn-ghost btn-sm" href="tel:${esc(k.telp)}">${icon("phone")} Telepon</a>
+      </div>
+    </article>`).join("");
+  $("socialList").innerHTML = DATA.kontakSosmed.map(s => `
+    <a href="${esc(s.link)}" ${s.link.startsWith("http") ? 'target="_blank" rel="noopener"' : ""}>
+      <span class="s-ico">${icon(s.icon)}</span>
+      <span><b>${esc(s.platform)}</b><span class="v">${esc(s.value)}</span></span>
+      <span class="go">${icon("arrow")}</span>
+    </a>`).join("");
+
+  // footer
+  const fl = $("footerLogo");
+  fl.src = IMG.footer; fl.alt = "Logo " + DATA.profile.institution; fl.onerror = () => fl.remove();
+  $("footerText").textContent = DATA.footer;
+}
+render();
+
+/* =====================================================================
+   Navigation: menu mobile + penanda bagian aktif
+   ===================================================================== */
+const menuBtn = $("menuBtn"), nav = $("nav");
+const setMenu = (open) => {
+  nav.classList.toggle("open", open);
+  menuBtn.setAttribute("aria-expanded", open);
+  menuBtn.setAttribute("aria-label", open ? "Tutup menu" : "Buka menu");
+  $("menuIcon").innerHTML = open ? '<path d="M6 6l12 12M18 6 6 18"/>' : '<path d="M4 7h16M4 12h16M4 17h16"/>';
+};
+menuBtn.addEventListener("click", () => setMenu(!nav.classList.contains("open")));
+nav.addEventListener("click", e => { if (e.target.closest("a")) setMenu(false); });
+document.addEventListener("keydown", e => { if (e.key === "Escape") setMenu(false); });
+
+const links = [...nav.querySelectorAll("a.nav-link")];
+const spy = new IntersectionObserver(entries => {
+  entries.forEach(en => {
+    if (!en.isIntersecting) return;
+    links.forEach(l => l.classList.toggle("active", l.getAttribute("href") === "#" + en.target.id));
+  });
+}, { rootMargin: "-45% 0px -50% 0px" });
+["home","profile","visi-misi","struktur","kegiatan","kontak"].forEach(id => spy.observe($(id)));
+</script>
+</body>
+</html>
